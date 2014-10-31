@@ -2,7 +2,7 @@ Jasmine 2.0 - TeamCity Reporter
 =======================
 
 
-To use:
+###How to use
 
 1) In your spec runner add the following javascript code, after loading the [Jasmine 2.0](http://jasmine.github.io/2.0/introduction.html) scripts
 
