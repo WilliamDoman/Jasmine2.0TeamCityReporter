@@ -14,10 +14,12 @@ jasmine.getEnv().addReporter(window.teamcityReporter);
 
 2) Run your script on an agent. An easy way to do this is to use the [PhantomJS](http://phantomjs.org) runner included with [TeamCity.Node](http://jasmine.github.io/2.0/introduction.html)
 
-  Configure the PhantomJS Build Runner:
+Select the PhantomJS build runner
+![](https://raw.githubusercontent.com/scottiemc7/Jasmine2.0TeamCityReporter/master/images/BuildRunner.png)
 
-  Add the following JavaScript to start your specrunner, making sure to replace the path to your local .html spec runner
-  
+Under `JavaScript to Execute` add the following, making sure to replace the path to your local .html spec runner
+![](https://raw.githubusercontent.com/scottiemc7/Jasmine2.0TeamCityReporter/master/images/ScriptSource.png)
+
     var fs = require('fs');
     var url = 'file://localhost/' + fs.workingDirectory + PATH_TO_YOUR_LOCAL_SPEC_RUNNER_HTML_FILE;
     var page = require('webpage').create();
