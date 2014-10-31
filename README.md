@@ -12,7 +12,7 @@ window.teamcityReporter = new TeamcityReporter();
 jasmine.getEnv().addReporter(window.teamcityReporter);
 ```
 
-2) Run your script on an agent. An easy way to do this is to use the [PhantomJS](http://phantomjs.org) runner included with [TeamCity.Node](http://jasmine.github.io/2.0/introduction.html)
+2) Execute your spec runner on an agent. An easy way to do this is to use the [PhantomJS](http://phantomjs.org) runner included with [TeamCity.Node](http://jasmine.github.io/2.0/introduction.html)
 
 Select the PhantomJS build runner
 
