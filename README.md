@@ -39,9 +39,9 @@ Under `JavaScript to Execute` add the following, making sure to replace the path
 
 ###Team City reporting tab
 
-![](https://raw2.github.com/EmberConsultingGroup/JasmineTeamCityReporter/master/images/Tests.PNG)
+![](https://raw.githubusercontent.com/scottiemc7/Jasmine2.0TeamCityReporter/master/images/Tests.png)
 
 
 ### Details of failed tests
 
-![](https://raw2.github.com/EmberConsultingGroup/JasmineTeamCityReporter/master/images/Details.PNG)
+![](https://raw.githubusercontent.com/scottiemc7/Jasmine2.0TeamCityReporter/master/images/Details.png)
