@@ -43,4 +43,7 @@ Under `JavaScript to Execute` add the following, making sure to replace the path
 ![](https://raw.githubusercontent.com/scottiemc7/Jasmine2.0TeamCityReporter/master/images/Tests.PNG)
 
 
+### Details of failed tests
 
+![](https://raw.githubusercontent.com/scottiemc7/Jasmine2.0TeamCityReporter/master/images/Details.PNG)
+>>>>>>> dd64bde7a9e1981b237e5e84877c684723c9c2fb
