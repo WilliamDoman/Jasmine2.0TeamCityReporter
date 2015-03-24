@@ -78,11 +78,11 @@ getJasmineRequireObj().TeamcityReporter = function () {
         }
 
         function escapeTeamcityString(message) {
-            if (!message) {
+            if ((message === null) || (message === undefined)) {
                 return "";
             }
 
-            return message.replace(/\|/g, "||")
+            return message.toString().replace(/\|/g, "||")
                           .replace(/\'/g, "|'")
                           .replace(/\n/g, "|n")
                           .replace(/\r/g, "|r")
